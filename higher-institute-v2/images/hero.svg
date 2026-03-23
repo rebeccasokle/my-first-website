@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" width="700" height="420">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b5ed7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0681da;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#dce8ff;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="700" height="420" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Clouds -->
+  <ellipse cx="120" cy="70" rx="60" ry="22" fill="white" opacity="0.15"/>
+  <ellipse cx="160" cy="60" rx="50" ry="18" fill="white" opacity="0.12"/>
+  <ellipse cx="560" cy="80" rx="70" ry="24" fill="white" opacity="0.12"/>
+  <ellipse cx="610" cy="68" rx="55" ry="20" fill="white" opacity="0.1"/>
+
+  <!-- Ground -->
+  <rect x="0" y="340" width="700" height="80" fill="#0a4ab5" rx="0"/>
+  <rect x="0" y="335" width="700" height="18" fill="#1a6fe0" opacity="0.6"/>
+
+  <!-- Main building (center) -->
+  <rect x="220" y="120" width="260" height="230" fill="url(#buildingGrad)" rx="4"/>
+  <!-- Windows grid main -->
+  <rect x="235" y="140" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.3"/>
+  <rect x="275" y="140" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.3"/>
+  <rect x="315" y="140" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.3"/>
+  <rect x="355" y="140" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.3"/>
+  <rect x="395" y="140" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.3"/>
+
+  <rect x="235" y="175" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.25"/>
+  <rect x="275" y="175" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.25"/>
+  <rect x="315" y="175" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.25"/>
+  <rect x="355" y="175" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.25"/>
+  <rect x="395" y="175" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.25"/>
+
+  <rect x="235" y="210" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="275" y="210" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="315" y="210" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="355" y="210" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="395" y="210" width="30" height="22" rx="3" fill="#0b5ed7" opacity="0.2"/>
+
+  <!-- Main door -->
+  <rect x="320" y="290" width="60" height="60" rx="4" fill="#0b5ed7" opacity="0.4"/>
+  <rect x="327" y="290" width="20" height="60" rx="2" fill="#0b5ed7" opacity="0.3"/>
+
+  <!-- Pillars -->
+  <rect x="235" y="255" width="12" height="95" fill="white" opacity="0.5"/>
+  <rect x="258" y="255" width="12" height="95" fill="white" opacity="0.5"/>
+  <rect x="430" y="255" width="12" height="95" fill="white" opacity="0.5"/>
+  <rect x="453" y="255" width="12" height="95" fill="white" opacity="0.5"/>
+
+  <!-- Roof / pediment -->
+  <polygon points="210,120 350,60 490,120" fill="white" opacity="0.9"/>
+  <polygon points="240,120 350,75 460,120" fill="#dce8ff" opacity="0.6"/>
+
+  <!-- Flag pole -->
+  <line x1="350" y1="25" x2="350" y2="75" stroke="white" stroke-width="2.5"/>
+  <polygon points="350,25 380,35 350,45" fill="#f0a500"/>
+
+  <!-- Left wing building -->
+  <rect x="80" y="200" width="150" height="150" fill="white" opacity="0.75" rx="3"/>
+  <rect x="95" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="127" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="159" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="191" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="95" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="127" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="159" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="191" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+
+  <!-- Right wing building -->
+  <rect x="470" y="200" width="150" height="150" fill="white" opacity="0.75" rx="3"/>
+  <rect x="485" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="517" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="549" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="581" y="215" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="485" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="517" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="549" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+  <rect x="581" y="245" width="22" height="18" rx="2" fill="#0b5ed7" opacity="0.2"/>
+
+  <!-- Trees -->
+  <rect x="52" y="310" width="8" height="30" fill="#0a3d8f"/>
+  <ellipse cx="56" cy="302" rx="18" ry="20" fill="#0f6b30" opacity="0.85"/>
+  <rect x="630" y="310" width="8" height="30" fill="#0a3d8f"/>
+  <ellipse cx="634" cy="302" rx="18" ry="20" fill="#0f6b30" opacity="0.85"/>
+  <rect x="170" y="318" width="6" height="22" fill="#0a3d8f"/>
+  <ellipse cx="173" cy="310" rx="14" ry="16" fill="#0f6b30" opacity="0.8"/>
+  <rect x="520" y="318" width="6" height="22" fill="#0a3d8f"/>
+  <ellipse cx="523" cy="310" rx="14" ry="16" fill="#0f6b30" opacity="0.8"/>
+
+  <!-- Path -->
+  <ellipse cx="350" cy="370" rx="80" ry="12" fill="#1a6fe0" opacity="0.5"/>
+  <rect x="338" y="340" width="24" height="30" fill="#1a6fe0" opacity="0.4"/>
+
+  <!-- Institution name banner -->
+  <rect x="150" y="380" width="400" height="30" rx="4" fill="white" opacity="0.15"/>
+  <text x="350" y="401" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="2">HIGHER INSTITUTE OF TECHNOLOGY</text>
+</svg>

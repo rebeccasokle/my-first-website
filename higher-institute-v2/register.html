@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Higher Institute of Technology — Registration</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="brand">
+        <img src="images/logo.svg" alt="Higher Institute of Technology Logo">
+        Higher Institute of Technology
+      </div>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="departments.html">Departments</a>
+        <a href="register.html" class="active">Registration</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card" style="max-width: 820px; margin-left: auto; margin-right: auto;"
+             aria-labelledby="reg-heading">
+      <h1 id="reg-heading">Online Student Registration</h1>
+      <p style="margin-bottom: 18px; color: #444;">
+        Complete the form below to apply to any department. Fields marked with <strong>*</strong>
+        are required.
+      </p>
+
+      <!-- NOTE: Update the action attribute with your real form endpoint (e.g. Formspree) -->
+      <form action="#" method="post" id="registration-form" novalidate>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="fname">First name *</label>
+            <input id="fname" name="first_name" type="text" required placeholder="First name">
+          </div>
+          <div class="field">
+            <label for="lname">Last name *</label>
+            <input id="lname" name="last_name" type="text" required placeholder="Last name">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="text" placeholder="+237 6XX XXX XXX">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="dob">Date of birth</label>
+            <input id="dob" name="dob" type="date">
+          </div>
+          <div class="field">
+            <label for="dept">Department to apply *</label>
+            <select id="dept" name="department" required>
+              <option value="">Select a department</option>
+              <option>Computer Science &amp; Engineering</option>
+              <option>Business &amp; Management</option>
+              <option>Finance &amp; Accounting</option>
+              <option>Arts &amp; Design</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="margin-top: 14px;">
+          <label for="about">Short motivation (optional)</label>
+          <textarea id="about" name="motivation" placeholder="Why do you want to join?"></textarea>
+        </div>
+
+        <p class="note">
+          Tip: keep your documents ready. After submission we will contact you with the next steps.
+        </p>
+
+        <div style="margin-top: 18px;">
+          <button class="cta" type="submit">Submit Application</button>
+        </div>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Questions? Write to <a href="admissions@higherinstitute.example"></a> 
+  </footer>
+
+</body>
+</html>
