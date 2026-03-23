@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f6b30;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0a4020;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#bg2)" rx="10"/>
+
+  <!-- Table -->
+  <rect x="60" y="135" width="280" height="10" rx="5" fill="white" opacity="0.2"/>
+  <rect x="90" y="145" width="10" height="40" rx="3" fill="white" opacity="0.15"/>
+  <rect x="300" y="145" width="10" height="40" rx="3" fill="white" opacity="0.15"/>
+
+  <!-- Person 1 (left) -->
+  <circle cx="110" cy="95" r="22" fill="white" opacity="0.2"/>
+  <circle cx="110" cy="88" r="12" fill="white" opacity="0.7"/>
+  <ellipse cx="110" cy="115" rx="16" ry="12" fill="white" opacity="0.5"/>
+
+  <!-- Person 2 (center) - presenter -->
+  <circle cx="200" cy="88" r="14" fill="#f0a500" opacity="0.9"/>
+  <ellipse cx="200" cy="118" rx="18" ry="14" fill="#f0a500" opacity="0.7"/>
+
+  <!-- Person 3 (right) -->
+  <circle cx="290" cy="95" r="22" fill="white" opacity="0.2"/>
+  <circle cx="290" cy="88" r="12" fill="white" opacity="0.7"/>
+  <ellipse cx="290" cy="115" rx="16" ry="12" fill="white" opacity="0.5"/>
+
+  <!-- Whiteboard / presentation -->
+  <rect x="155" y="45" width="90" height="55" rx="4" fill="white" opacity="0.15"/>
+  <rect x="160" y="50" width="80" height="45" rx="3" fill="white" opacity="0.08"/>
+  <!-- Bar chart on board -->
+  <rect x="168" y="75" width="10" height="18" rx="2" fill="#4fc3f7" opacity="0.8"/>
+  <rect x="182" y="65" width="10" height="28" rx="2" fill="#f0a500" opacity="0.8"/>
+  <rect x="196" y="70" width="10" height="23" rx="2" fill="white" opacity="0.7"/>
+  <rect x="210" y="58" width="10" height="35" rx="2" fill="#4fc3f7" opacity="0.8"/>
+  <line x1="165" y1="94" x2="225" y2="94" stroke="white" stroke-width="1" opacity="0.4"/>
+
+  <!-- Speech bubble -->
+  <ellipse cx="155" cy="70" rx="28" ry="16" fill="white" opacity="0.15"/>
+  <polygon points="160,86 155,95 150,86" fill="white" opacity="0.15"/>
+  <rect x="133" y="62" width="40" height="5" rx="2.5" fill="white" opacity="0.4"/>
+  <rect x="137" y="71" width="30" height="5" rx="2.5" fill="white" opacity="0.3"/>
+
+  <!-- Floating icons: gear and chart -->
+  <text x="34" y="75" font-size="28" fill="white" opacity="0.12">⚙</text>
+  <text x="340" y="80" font-size="26" fill="white" opacity="0.12">📊</text>
+
+  <!-- Label -->
+  <text x="200" y="210" font-family="Georgia, serif" font-size="11" fill="white" opacity="0.7" text-anchor="middle" letter-spacing="1.5">SCHOOL OF MANAGEMENT</text>
+</svg>
